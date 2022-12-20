@@ -1,37 +1,23 @@
 #!/bin/bash
 
-
-
-mkdir bytecodes
-
-cd bytecodes
+cd bf
 
 
 
-echo "<>" > 00.m
+echo "<>" > 1000-school.bf
 
-echo "<>" > 06.m
+echo "<>" > 1001-add.bf
 
-echo "<>" > 07.m
+echo "<>" > 1002-mul.bf
 
-echo "<>" > 09.m
-
-echo "<>" > 12.m
-
-echo "<>" > 19.m
-
-echo "<>" > 28.m
-
-echo "<>" > 31.m
-
-echo "<>" > 35.m
-
-echo "<>" > 47.m
+echo "<>" > 1003-mul.bf
 
 
 
 git add .
 
-git commit -m "initial commit"
+git commit -m "brainfuck files"
 
 git push
+
+
